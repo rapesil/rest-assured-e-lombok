@@ -46,9 +46,5 @@ public class LoginTest {
         .then()
             .statusCode(200)
             .extract().as(LoginResponseBody.class);
-
-        assertThat(resposta.getMessage()).isEqualTo("Login realizado com sucesso");
-//        Assert.
-//        assertThat(resposta.getAuthorization()).contains("Beare0 ");
     }
 }
