@@ -38,13 +38,12 @@ public class LoginTest {
         loginRequestBody.setEmail("fulano@qa.com");
         loginRequestBody.setPassword("teste");
 
-        LoginResponseBody resposta = given()
+        given()
             .contentType(ContentType.JSON)
             .body(loginRequestBody)
         .when()
             .post("/login")
         .then()
-            .statusCode(200)
-            .extract().as(LoginResponseBody.class);
+            .statusCode(200);
     }
 }
