@@ -88,12 +88,12 @@ public class CarrinhoTest {
 //      Cria o builder de produto
         Produto produto = Produto.builder().idProduto("BeeJh5lz3k6kSIzA").quantidade(1).build();
 //      Cria o builder de produto
-        Produto produto2 = Produto.builder().idProduto("idDoNovoProduto").quantidade(1).build();
+//        Produto produto2 = Produto.builder().idProduto("idDoNovoProduto").quantidade(1).build();
 
 //        Cria o builder de requestCarrinhoBody
         RequestCarrinhoBody requestCarrinhoBody = RequestCarrinhoBody.builder()
             .produto(produto)
-            .produto(produto2)
+//            .produto(produto2)
         .build();
 
         given()
