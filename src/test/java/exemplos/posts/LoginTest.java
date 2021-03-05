@@ -1,13 +1,9 @@
-package functional;
+package exemplos.posts;
 
 import io.restassured.http.ContentType;
-import models.LoginRequestBody;
-import models.LoginResponseBody;
-import org.junit.Assert;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static com.google.common.truth.Truth.assertThat;
 import static io.restassured.RestAssured.*;
 
 public class LoginTest {

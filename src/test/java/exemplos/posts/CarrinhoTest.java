@@ -1,10 +1,6 @@
-package functional;
+package exemplos.posts;
 
 import io.restassured.http.ContentType;
-import models.LoginRequestBody;
-import models.LoginResponseBody;
-import models.Produto;
-import models.RequestCarrinhoBody;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package models;
+package exemplos.posts;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
