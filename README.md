@@ -13,7 +13,7 @@ Se quiser saber mais sobre esse código, confira meus posts no medium:
 * Maven
 * NodeJs
 
-## Serve Rest 
+## ServeRest 
 
 Para criar esses exemplos utilizei o [ServeRest](https://github.com/PauloGoncalvesBH/ServeRest) que é uma API desenvolvida justamente com finalidade de ajudar testadores a praticar seus conhecimentos em testes de API.
 
